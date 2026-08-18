@@ -21,7 +21,7 @@ See [`seismic/README.md`](seismic/README.md) for available notebooks, prerequisi
 
 The [`geodetic/`](geodetic/) pathway focuses on accessing, exploring, and analyzing GNSS and other geodetic data and products in GeoLab.
 
-Because many established geodetic processing systems operate outside notebook-based Python environments, these notebooks emphasize data access, inspection, visualization, downstream analysis, and reproducible workflows.
+These notebooks use the EarthScope SDK to work with GNSS observations, position streams, and satellite ephemerides directly in the cloud, rather than downloading and parsing raw data files (such as RINEX) locally. They emphasize data access and server-side filtering, quality inspection, visualization, and combining products for analysis.
 
 See [`geodetic/README.md`](geodetic/README.md) for available notebooks, prerequisites, and recommended sequencing.
 
